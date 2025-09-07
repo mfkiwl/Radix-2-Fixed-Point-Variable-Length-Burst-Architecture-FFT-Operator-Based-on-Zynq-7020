@@ -41,20 +41,20 @@ The implemented operator was verified on a Zynq-7020 board and demonstrated sign
 .  
 ├── coe/                           # Contains .coe files for ROM/RAM initialization  
 ├── fft_top_new.srcs/              # Vivado's default source directory  
-│   ├── constrs_1/
-│   │   └── new/                   # Constraint files (.xdc)
-│   ├── sim_1/
-│   │   └── new/                   # Simulation-related sources (Testbenches)
-│   └── sources_1/                 # Primary design sources (RTL and IP)
-│       ├── ip/                    # ... IP core configuration files (.xci)
-│       └── new/                   # ... User-created Verilog files
-├── misc/                          # Miscellaneous files, e.g., the project report
-├── rtl/                           # Contains the core RTL design files (.v)
-├── tb/                            # Contains top-level testbenches
-├── .gitignore                     # Git ignore configuration file
-├── LICENSE                        # Project license file
-├── README.md                      # This README file
-└── tb_fft_top_new_behav.wcfg      # Vivado simulation waveform configuration
+│   ├── constrs_1/  
+│   │   └── new/                   # Constraint files (.xdc)  
+│   ├── sim_1/  
+│   │   └── new/                   # Simulation-related sources (Testbenches)  
+│   └── sources_1/                 # Primary design sources (RTL and IP)  
+│       ├── ip/                    # ... IP core configuration files (.xci)  
+│       └── new/                   # ... User-created Verilog files  
+├── misc/                          # Miscellaneous files, e.g., the project report  
+├── rtl/                           # Contains the core RTL design files (.v)  
+├── tb/                            # Contains top-level testbenches  
+├── .gitignore                     # Git ignore configuration file  
+├── LICENSE                        # Project license file  
+├── README.md                      # This README file  
+└── tb_fft_top_new_behav.wcfg      # Vivado simulation waveform configuration  
 
 ## FSM State Diagram
 
