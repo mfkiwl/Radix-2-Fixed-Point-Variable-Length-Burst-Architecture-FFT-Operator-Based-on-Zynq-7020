@@ -4,6 +4,8 @@ This repository contains the Verilog source code and documentation for the **Des
 
 The project implements a hardware accelerator for the Fast Fourier Transform (FFT) on an FPGA, designed to offload computationally intensive tasks from a general-purpose processor.
 
+*Please rebuild the Vivado2018.3 project using `rebuild.tcl` in ./misc after configuring `origin_dir`*
+
 ---
 
 ## Key Features
@@ -46,7 +48,7 @@ The implemented operator was verified on a Zynq-7020 board and demonstrated sign
 
 ## FSM State Diagram
 
-![Loading svg failed](./my_fsm_0.svg)
+![Loading svg failed](./misc/my_fsm_0.svg)
 
 ## License
 
