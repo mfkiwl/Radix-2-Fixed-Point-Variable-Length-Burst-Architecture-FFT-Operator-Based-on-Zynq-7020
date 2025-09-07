@@ -38,13 +38,23 @@ The implemented operator was verified on a Zynq-7020 board and demonstrated sign
 - **Resource Utilization**: The design maintains a low hardware footprint, utilizing only **4.02% of LUTs** and **3.64% of DSP slices** on the target device.
 
 ## Repository Structure
-
-├── hdl/                  # Verilog source files for the FFT operator and submodules  
-├── sim/                  # Testbenches and simulation scripts  
-├── zynq_project/         # Vivado project files for the Zynq verification environment  
-├── docs/                 # Contains the original project report PDF  
-├── LICENSE               # Project license file  
-└── README.md             # This file  
+.  
+├── coe/                           # Contains .coe files for ROM/RAM initialization  
+├── fft_top_new.srcs/              # Vivado's default source directory  
+│   ├── constrs_1/
+│   │   └── new/                   # Constraint files (.xdc)
+│   ├── sim_1/
+│   │   └── new/                   # Simulation-related sources (Testbenches)
+│   └── sources_1/                 # Primary design sources (RTL and IP)
+│       ├── ip/                    # ... IP core configuration files (.xci)
+│       └── new/                   # ... User-created Verilog files
+├── misc/                          # Miscellaneous files, e.g., the project report
+├── rtl/                           # Contains the core RTL design files (.v)
+├── tb/                            # Contains top-level testbenches
+├── .gitignore                     # Git ignore configuration file
+├── LICENSE                        # Project license file
+├── README.md                      # This README file
+└── tb_fft_top_new_behav.wcfg      # Vivado simulation waveform configuration
 
 ## FSM State Diagram
 
