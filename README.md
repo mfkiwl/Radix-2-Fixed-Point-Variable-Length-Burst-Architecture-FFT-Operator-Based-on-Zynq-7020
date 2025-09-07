@@ -1,6 +1,6 @@
 # Configurable FFT Acceleration Operator on Zynq
 
-This repository contains the Verilog source code and documentation for the final year project titled **"Design and Implementation of an FFT Acceleration Operator Based on Zynq"**.
+This repository contains the Verilog source code and documentation for the **Design and Implementation of an FFT Acceleration Operator Based on Zynq**.
 
 The project implements a hardware accelerator for the Fast Fourier Transform (FFT) on an FPGA, designed to offload computationally intensive tasks from a general-purpose processor.
 
