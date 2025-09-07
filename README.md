@@ -36,13 +36,13 @@ The implemented operator was verified on a Zynq-7020 board and demonstrated sign
 - **Resource Utilization**: The design maintains a low hardware footprint, utilizing only **4.02% of LUTs** and **3.64% of DSP slices** on the target device.
 
 ## Repository Structure
-.
-├── hdl/                  # Verilog source files for the FFT operator and submodules
-├── sim/                  # Testbenches and simulation scripts
-├── zynq_project/         # Vivado project files for the Zynq verification environment
-├── docs/                 # Contains the original project report PDF
-├── LICENSE               # Project license file
-└── README.md             # This file
+
+├── hdl/                  # Verilog source files for the FFT operator and submodules  
+├── sim/                  # Testbenches and simulation scripts  
+├── zynq_project/         # Vivado project files for the Zynq verification environment  
+├── docs/                 # Contains the original project report PDF  
+├── LICENSE               # Project license file  
+└── README.md             # This file  
 
 ## License
 
