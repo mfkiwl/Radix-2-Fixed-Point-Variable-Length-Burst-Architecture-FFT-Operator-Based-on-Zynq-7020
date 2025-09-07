@@ -12,7 +12,7 @@ The project implements a hardware accelerator for the Fast Fourier Transform (FF
 - **Architecture**: Resource-efficient iterative structure with natural order output.
 - **Data Path**: 32-bit fixed-point representation.
 - **High Configurability**:
-    - Supports variable FFT point sizes from **8 to 4096**.
+    - Supports variable FFT point sizes from **8 to 8192**.
     - Supports both forward **FFT** and **Inverse FFT (IFFT)** modes.
 - **Platform**: Implemented in Verilog and verified on a Zynq-7020 SoC platform.
 
