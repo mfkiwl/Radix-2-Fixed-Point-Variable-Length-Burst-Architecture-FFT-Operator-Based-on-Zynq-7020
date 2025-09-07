@@ -44,6 +44,10 @@ The implemented operator was verified on a Zynq-7020 board and demonstrated sign
 ├── LICENSE               # Project license file  
 └── README.md             # This file  
 
+## FSM State Diagram
+
+![Loading svg failed](./my_fsm_0.svg)
+
 ## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
