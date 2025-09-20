@@ -5,7 +5,7 @@ module cu_test
 (
     input  wire        i_clk,            // 外部时钟信号
     input  wire        i_rst_n,            // 外部复位信号
-    input  wire [4:0]  i_n_cfg,           // FFT配置信号输入，至多为2^11=2048
+    input  wire [4:0]  i_n_cfg,           // FFT配置信号输入，至多为2^31，远大于P_NMAX=8192点的设计需求
     input  wire        i_n_cfg_valid,     // FFT配置信号有效输入
     
     input  wire        i_data_in_valid,  // 外部数据输入有效信号,一直拉高
